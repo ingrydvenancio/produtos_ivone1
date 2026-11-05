@@ -1,0 +1,44 @@
+ <style>
+    body {
+        background-color: #F7F1E8;
+        color: #292326;
+        font-family: 'Montserrat', sans-serif;
+    }
+    h1, h2, h3, .font-heading {
+        font-family: 'Cormorant Garamond', serif;
+    }
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+        background: #F7F1E8;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #8B344B;
+        border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: #641E32;
+    }
+    /* Padrão Geométrico de Fundo */
+    .bg-pattern {
+        background-color: #641E32;
+        background-image: radial-gradient(#D6B77A 0.75px, transparent 0.75px), radial-gradient(#D6B77A 0.75px, #641E32 0.75px);
+        background-size: 30px 30px;
+        background-position: 0 0,15px 15px;
+        opacity: 0.95;
+    }
+    .bg-card-placeholder {
+        background: linear-gradient(135deg, #E8D9CC 0%, #F7F1E8 50%, #E8D9CC 100%);
+    }
+    .text-gold-gradient {
+        background: linear-gradient(45deg, #D6B77A, #F7F1E8, #D6B77A);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    /* Efeitos de Transição de Cards */
+    .group:hover .group-hover\:scale-110 {
+        transform: scale(1.1);
+    }
+</style>
